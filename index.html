@@ -725,7 +725,7 @@
                             <h3 class="card-title mt-3 mb-4" style="font-weight: 600;">Current Order</h3>
                         </div>
                         <div class="col-6 align-self-center d-flex justify-content-end pe-5">
-                            <button type="button" class="btn fw-bold text-primary" style="background-color: rgb(212, 230, 239) !important;">Clear All</button>
+                            <button id="clearAll" type="button" class="btn fw-bold text-primary" style="background-color: rgb(212, 230, 239) !important;">Clear All</button>
                         </div>
                     </div>
                     <div class="">
@@ -969,14 +969,21 @@
 </div>
 
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script> -->
 <!-- counter + - -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-    document.addEventListener('DOMContentLoader' , function(){
+    document.addEventListener('DOMContentLoader' , () => {
         
+        const addToCart = document.querySelectorAll('#pills-tabContent .bi-cart-plus')
+
+        addToCart.forEach(button => {
+            button.addEventListener('click', (e) => {
+                
+            });
+        });
     })
 </script>
 <script>
