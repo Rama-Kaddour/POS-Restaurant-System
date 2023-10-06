@@ -146,7 +146,7 @@
     <div class="container-fluid"> 
             <div class="row w-100 d-flex">
                 <div class="col-6 col-md-8 ps-md-4 mt-2 pt-md-1 align-self-center">
-                    <a class="navbar-brand fw-bold text-white" href="second.html">POS System</a>
+                    <a class="navbar-brand fw-bold text-white" href="second.html">POS System</a> 
                 </div>
                 <div class="col-6 col-md-2 mt-3 mt-md-2">
                     <div class="input-group me-0 float-end">
