@@ -8,8 +8,10 @@
     <link href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.xyz/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
-<body class="d-flex justify-content-center " style="background-color: #2C294B;">
-    <div class=" mt-2 ms-4 ps-4 pe-4 mt-md-5 pt-md-3 ">
+<body style="background-color: #2C294B;">
+    <p class="text-center text-white fst-italic pt-5 fs-2 fw-bold" >Mika Restaurant</p>
+        
+    <div class="d-flex justify-content-center mt-2 ms-4 ps-4 pe-4 mt-md-3  ">
         <div class="card mt-md-5" style="border: lightgrey solid 3px;">
             <div class="card-body">
                 <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="POST" class="align-self-center align-middle mw-100" style=" width: 450px;">
@@ -28,7 +30,7 @@
                     </div>
                     <p class="text-secondary pt-3">Already have an account?</p>
                     <div class="d-flex justify-content-between">
-                        <a class="text-primary text-decoration-none fw-medium " href="index.php">Login</a>
+                        <a class="text-primary text-decoration-none fw-medium " href="login.php">Login</a>
                         <input name="submit" type="submit" class="btn btn-primary">
                     </div>
                 </form>

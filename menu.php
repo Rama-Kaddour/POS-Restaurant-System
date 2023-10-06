@@ -145,16 +145,16 @@
 <nav class="navbar py-5 fixed-topp" id="padding">
     <div class="container-fluid"> 
             <div class="row w-100 d-flex">
-                <div class="col-6 col-md-8 ps-md-5 mt-2 pt-md-1 align-self-center">
-                    <a class="navbar-brand fw-bold text-white ps-md-5" href="second.html">POS System</a>
+                <div class="col-6 col-md-8 ps-md-4 mt-2 pt-md-1 align-self-center">
+                    <a class="navbar-brand fw-bold text-white" href="second.html">POS System</a>
                 </div>
-                <div class="col-6 col-md-2 mt-3 mt-md-0">
+                <div class="col-6 col-md-2 mt-3 mt-md-2">
                     <div class="input-group me-0 float-end">
                         <button class="btn btn-search" type="button" id="button-addon2" disabled><i class="bi bi-search"></i></button>
                         <input type="text" class="form-control text-white me-2" placeholder="Find Goods" aria-label="Find Goods" aria-describedby="button-addon2">
                     </div>
                 </div>
-                <div class="col-md-2 col mt-4 mt-md-0 hide-elements" id="hide">
+                <div class="col-md-2 col mt-4 mt-md-2 hide-elements" id="hide">
                     <div class="d-flex float-md-end justify-content-between">
                         <button type="button" class="btn btn-nav me-md-2"><i class="bi bi-bell-fill"></i></button>
                         <button type="button" class="btn btn-nav me-md-2"><i class="bi bi-person-fill"></i></button>
@@ -724,7 +724,7 @@
                         <div class="col-6">
                             <h3 class="card-title mt-3 mb-4" style="font-weight: 600;">Current Order</h3>
                         </div>
-                        <div class="col-6 align-self-center d-flex justify-content-end pe-5">
+                        <div class="col-6 align-self-center d-flex justify-content-end pe-3">
                             <button id="clearAll" type="button" class="btn fw-bold text-primary" style="background-color: rgb(212, 230, 239) !important;">Clear All</button>
                         </div>
                     </div>
